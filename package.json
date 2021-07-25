@@ -1,11 +1,10 @@
 {
   "name": "blanky",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Github Action - for identifying duplicates inside webpack bundles and assigning tasks to developers",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "compile": "ncc build index.js --license licenses.txt"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
