@@ -37,7 +37,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2 #we need to checkout the repo - sice we need ./blanky.json available 
       - name: check webpack bundle for duplicates
-        uses: georgebatalinski/blanky@v1.0
+        uses: georgebatalinski/blanky@v1.1
         with:
           myToken: ${{ secrets.PRIVATE_REPO_GITHUB_TOKEN }} #you will need a token - if its a private repo 
 ```
