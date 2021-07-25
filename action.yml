@@ -1,5 +1,7 @@
 name: 'Webpack duplicates'
 description: 'Posting Webpack Duplicates on your Pull Requests'
+icon: 'briefcase'
+color: 'green'
 runs:
   using: 'node12'
   main: 'index.js'
